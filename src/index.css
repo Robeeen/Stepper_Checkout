@@ -2,11 +2,22 @@
   display: flex;
   background-color: aquamarine;
   width: 800px;
-  margin: 100px auto;
+  margin: 0 auto;
   padding: 20px;
-  height: 300px;
+  height: auto;
   justify-content: space-between;
   align-items: center;
+  padding-top: 50px;
+}
+.bottom{
+  display: block;
+  background-color: aquamarine;
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100px;
+  justify-content: space-between;
+  text-align: center;
 }
 .steps{ 
   margin: 0 auto;  
@@ -33,4 +44,21 @@
   background-color: green;
   color: white;
   font-weight: bold;
+}
+.btn{
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  background-color: blueviolet;
+  cursor: pointer;
+  border: 1px solid #fff;
+  color: white;
+  border-radius: 5px;
+
+}
+.details{
+  font-family: 'Arial';
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(30, 3, 140);
 }
