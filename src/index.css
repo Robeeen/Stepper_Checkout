@@ -23,4 +23,14 @@
 }
 .step_name{
   text-align: center;
+  margin-top: 10px;
+}
+.active .step_number{
+  background-color: blueviolet;
+  color: rgb(255, 255, 255);
+}
+.complete .step_number{
+  background-color: green;
+  color: white;
+  font-weight: bold;
 }
