@@ -1,0 +1,26 @@
+.main{
+  display: flex;
+  background-color: aquamarine;
+  width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  height: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+.steps{ 
+  margin: 0 auto;  
+}
+.step_number{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: aliceblue;
+  border: 1px solid #ccc;
+  text-align: center;
+  align-content: space-evenly;
+  margin: 0 auto;
+}
+.step_name{
+  text-align: center;
+}
