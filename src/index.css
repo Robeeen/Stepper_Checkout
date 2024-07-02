@@ -54,11 +54,30 @@
   border: 1px solid #fff;
   color: white;
   border-radius: 5px;
-
 }
 .details{
   font-family: 'Arial';
   font-size: 18px;
   font-weight: 600;
   color: rgb(30, 3, 140);
+}
+.progress_bar{
+  position: absolute;
+  
+  width: 100%;
+  left: 0;
+  height: 4px;
+  background-color: antiquewhite;
+}
+.progress{
+  height: 100%;
+  background-color: green;
+  transition: 0.25s ease;
+  width: 0%;
+}
+.progress-width{
+  height: 100%;
+  background-color: green;
+  transition: 0.25s ease;
+  width: 25%;
 }

@@ -1,4 +1,5 @@
-import './index.css'
+import './App.css'
+import Grid from './components/Grid'
 import Stepper from './components/Stepper'
 
 const CheckOut_Steps = [
@@ -24,13 +25,13 @@ const CheckOut_Steps = [
 ]
 
 
-function App() {
-  
+function App() { 
 
   return (
     <>
       <div>
         <Stepper stepConfig={CheckOut_Steps} />
+        <Grid />
         </div>
     </>
   )
