@@ -31,7 +31,7 @@ function App() {
     <>
       <div>
         <Stepper stepConfig={CheckOut_Steps} />
-        <Grid />
+        {/* <Grid /> */}
         </div>
     </>
   )

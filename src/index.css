@@ -18,6 +18,7 @@
   height: 100px;
   justify-content: space-between;
   text-align: center;
+  z-index: -1;
 }
 .steps{ 
   margin: 0 auto;  
@@ -31,10 +32,13 @@
   text-align: center;
   align-content: space-evenly;
   margin: 0 auto;
+  z-index: 9999;
+  position: relative;
 }
 .step_name{
   text-align: center;
   margin-top: 10px;
+
 }
 .active .step_number{
   background-color: blueviolet;
@@ -63,11 +67,12 @@
 }
 .progress_bar{
   position: absolute;
-  
-  width: 100%;
-  left: 0;
+  align-content: space-around;
+  width: 800px;
+  margin-top: -22px;
   height: 4px;
   background-color: antiquewhite;
+  z-index: 0;
 }
 .progress{
   height: 100%;
